@@ -14,7 +14,7 @@ void print_usage()
 	" -v --verbose               # + Prints unsuccesfull tries\n"
 	" -h --help                  # This usage screen\n"
 	" -hh                        # Advanced options\n\n";
-	exit(0x0);
+	exit(0);
 }
 
 void print_advanced_usage()
@@ -40,7 +40,7 @@ void print_advanced_usage()
 	" -O --out-addr <filename>   # Output found IP addresses into a file (default: \"cbusteraddressfinds.txt\")\n"
 	" -h --help                  # Default usage screen\n"
 	" -hh                        # This usage screen\n\n";
-	exit(0x0);
+	exit(0);
 }
 
 
