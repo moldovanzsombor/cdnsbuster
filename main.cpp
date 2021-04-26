@@ -250,7 +250,7 @@ int main(int argc, char* argv[])
 		if(print_tid)
 		{
 			cbuster_threads.emplace_back(
-				std::thread(dns_buster, target_domain, verbose, wordlists[i], " ("+std::to_string(i)+") " + (i >= 10 ? "": " ") , &dns_output, write_dns, &addr_output, write_addr)
+				std::thread(dns_buster, target_domain, verbose, wordlists[i], " ("+std::to_string(i)+") " + (i >= 10 ? "" : " ") , &dns_output, write_dns, &addr_output, write_addr)
 			);
 		}
 		else
