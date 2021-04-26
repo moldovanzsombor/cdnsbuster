@@ -1,4 +1,4 @@
-# cdnsbuster
+# cDNSbuster
 Lightweight and fast dns buster
 
 # Compilation
