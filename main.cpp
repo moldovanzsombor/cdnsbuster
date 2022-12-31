@@ -239,8 +239,8 @@ int main(int argc, char* argv[])
 		  "Wordlist path:             " << wordlist_address <<
 		"\nDomain target:             " << target_domain <<
 		"\nVerbose output:            " << verbose <<
-		"\nAddress output filename:   " << dns_output_file_name <<
-		"\nSubdomain output filename: " << addr_output_file_name <<
+		"\nSubdomain output filename:   " << dns_output_file_name <<
+		"\nAddress output filename: " << addr_output_file_name <<
 		"\nThreads:                   " << thread_count << "\n\n";
 	}
 	std::this_thread::sleep_for(std::chrono::milliseconds(wait_time));
